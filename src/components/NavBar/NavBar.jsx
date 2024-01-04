@@ -51,7 +51,6 @@ const SideBarMenu = ({setOpen}) => {
               Contact
             </Link>
           </div>
-
         </div>
       </div>
 
