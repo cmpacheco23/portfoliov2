@@ -8,8 +8,8 @@ import Skills from '../components/Skills/Skills';
 
 const HomePage = () => {
   return ( 
-    <div>
-      <div>
+    <div className='w-full flex flex-col justify-start items-left text-left z-0 relative'>
+      <div className=''>
         <h1>Carla Pacheco</h1>
         <h1>New York</h1>
       </div>
@@ -20,15 +20,18 @@ const HomePage = () => {
         <p>Background in Marketing & Customer Success at MarTech SaaS companies</p>
         <p>Python, JavaScript, HTML, CSS</p>
       </div>
-      <div>
+      <div className='flex'>
         <img src={linkedinlogo} alt="LinkedIn Logo" />
         <img src={githublogo} alt="Github Logo" />
+        {/* reg/dev button
+        lightmode dark mode toggle */}
+
       </div>
       <Projects/>
       <Experience/>
       <Skills/>
       <Contact/>
-      
+
     </div>
   );
 }
