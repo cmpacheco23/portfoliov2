@@ -63,8 +63,12 @@ button:focus-visible {
 
 p {
   color: #414141;
+  font-size: 24px;
 }
 
+li{
+  font-size: 24px;
+}
 @media (prefers-color-scheme: light) {
   :root {
     color: #562266;
